@@ -180,23 +180,40 @@ border: none;
 text-align: center;
 }
 
-@media only screen and (max-width: 768px){
+.containerfooter{
+  margin: 0px 100px;
+}
+
+
+
+@media screen and (max-width: 1325px){
   .card{
-    width: 50%;
+    width: 80%;
+    height: 70%;
     margin: 0 auto;
   }
   .card-p{
     display: none;
   }
+
+  .card-text{
+    display: none;
+  }
+
   .tamano{
     font-size: 15px;
   }
   .enviar{
-    position: static;
     box-shadow: none;
     transform: none;
     transition: none;
     text-transform: none;
-    margin: 0 auto;
+  
+    
+  }
+  .contieneboton{
+    padding-top: 75px;
   }
 }
+
+

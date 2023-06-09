@@ -1,24 +1,23 @@
 #boton1{
     position:relative;
-   left: 93%;
+    left: 93%;
 }
 .luna{
-    width: 90px;
-    height: 90px;
+    width: 50px;
+    height: 50px;
 }
+
 .tema{
     background-color: aliceblue;
-    width: 125px;
-    height: 125px;
+    display: inline-block;
+    width: 75px;
+    height: 75px;
     border-radius: 50%;
     background-color: #555;
     overflow: hidden;
-    border: 2px solid #fff; 
+    border: 2px solid #fff; /* Borde blanco de 2px */
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
-    display: inline-block;
     justify-content: flex-end;
-    
-    
 }
 
 .oscuro{ 
@@ -36,21 +35,12 @@
     margin-top: 10%;
     text-align: center;
     font-size: 30px;
-    font-family: Arial; 
-    font-size: 30px; 
-    COLOR: #1278BF; 
-    text-shadow: 0px 0px 9px #508AD3
 
-}
-.centro{
-    padding-top: 150px;
-    margin: 0 auto;   
 }
 form{
     margin-left: 30%;
     margin-right: 30%;
     background-color: aliceblue;
-    
 }
 .form-group{
     text-align: center;

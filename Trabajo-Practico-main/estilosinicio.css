@@ -13,8 +13,8 @@
   }
   nav {
     color: #fff;
-    border-left: 40px solid transparent;
-    border-top: 40px solid aliceblue;
+    border-left: 80px solid transparent;
+    border-top: 80px solid lightblue;
     position: relative;
     
   }
@@ -31,7 +31,4 @@
   #empresa{
     font-size: 35px;
     color: #101773;
-  }
-  .imgcaru{
-    height: 100vh;
   }
